@@ -1,0 +1,38 @@
+:root {
+    --blue: #0cc4e6;
+    --white: #ffffff;
+    --black: #111;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .footer {
+    background-color: var(--white);
+    border-radius: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem auto; /* Centraliza horizontalmente */
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .logoBox {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .titleBox {
+      text-align: center;
+    }
+  
+    .logo {
+      margin-bottom: 1rem;
+    }
+  }
+  
