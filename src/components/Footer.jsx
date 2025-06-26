@@ -15,7 +15,7 @@ export function Footer() {
       <a href="https://github.com/yNotFlaviio" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
         <FaGithub size={30} color="#0cc4e6" />
       </a>
-      <p>Antônio Flávio Rodrigues de Andrade | 4INF-1V</p>
+      <p>By: Antônio Flávio Rodrigues de Andrade <br /> 4INF-1V | TJA </p>
     </footer>
   );
 }
